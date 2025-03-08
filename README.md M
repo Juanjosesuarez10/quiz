@@ -1,0 +1,18 @@
+Escribe un programa que solicite al usuario un número entero positivo n y genere un patrón numérico especial. Para cada número k desde 1 hasta n, 
+el programa debe generar una línea que contenga exactamente k veces el número k, pero alternando entre números positivos y negativos. Por ejemplo, 
+para n = 4, el patrón debería ser:
+
+
+1
+2 -2
+3 -3 3
+4 -4 4 -4
+Analisis: la solicitud de ingreso de numero para generar un patron numerico como esta planteado en el ejemplo, dependiendo del numero ingresado 
+es hasta donde llega el patron y cuantos numeros apareceran en el patron, quiere decir que por ejemplo el 5 apareceran 5 lineas y por cada numero 
+aumenta en 1 salteando en positivo negativo. 
+
+Diseño: con esto utilizando una estructura para el rango de numeros, tambien necesitamos de crear un contador
+por si por ejemplo ponemos el 4 vaya subiendo de 1 a 1 hasta llegar a dicho numero que haya sido solicitado por el usuario.
+con una estructura como while para el rango de numeros queda cubierto, con esto necesitamos hacer un mensaje de por si la persona ingresa un numero no valido,
+ya que solo necesitamos numeros enteros.
+
